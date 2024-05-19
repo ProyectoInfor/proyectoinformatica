@@ -1,0 +1,30 @@
+<!DOCTYPE html> 
+<body>
+    <script>
+
+        alert("Nuestro proyecto es una pila");
+        /*Se crea la funcion "Pila"*/
+        function Pila(){ 
+            /*Este es el arreglo LIFO tambien conocido como PILA*/
+            this.almDatos = [];
+            /*Esta es la variable nDatos que indica el numero de datos almacenados*/   
+            this.nDatos = 0; 
+            /*Esta es la variable ingrDato encargada de ingresar datos */
+            this. ingDato = push;  
+            /*Esta es la variable extDato encargada de extraer el ultimo dato ingresado*/
+            this. extDato = pop; 
+        }
+
+        /*Esta funcion se encarga de introducir un nuevo datos al final del ultimo elemento introducido*/
+        function push (item){ 
+            this.almDatos[this.nDatos++] = item;
+        }
+
+        /*Esta funcion se encarga de extraer el ultimo dato o elemento introducido*/
+        function pop (){ 
+            return this.almDatos[--this.nDatos];
+        }
+
+    </script>
+</body>
+</html>
