@@ -1,1 +1,1 @@
-# proyecto informatica
+# Proyecto informatica
